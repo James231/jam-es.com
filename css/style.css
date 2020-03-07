@@ -1,0 +1,184 @@
+/*
+-------------------------------------------------------------------------------------------------
+Jam-Es.com Website - © Copyright 2020 - Jam-Es.com
+Licensed under the MIT License (MIT). See LICENSE in the GitHub repository for license information.
+-------------------------------------------------------------------------------------------------
+*/
+
+section {
+	min-height: 100vh;
+	padding: 30px;
+	color: #CBCBCB;
+	display: -webkit-flex; /* Safari */
+	display: flex;
+	flex-direction: column;
+	max-height: auto;
+}
+
+.subsection {
+	height: 33.3vh;
+	color: #CBCBCB;
+	min-height: 160px;
+	display: -webkit-flex; /* Safari */
+	display: flex;
+	flex-direction: column;
+}
+
+h5 {
+	font-weight: 300;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.ss-button {
+	color: white;
+	border-color: white;
+}
+
+.ss-button:hover {
+	color: black;
+	background-color: white;
+	font-weight: 600;
+}
+
+.grey-section {
+	background-image: linear-gradient(to left bottom, #212121, #2c2c2c, #373737, #434343, #4f4f4f, #555555, #5b5b5b, #616161, #626262, #626362, #636363, #646464);
+}
+
+.lightgrey-section {
+	background-image: linear-gradient(to bottom, #1e5799 0%,#207cca 47%,#7db9e8 100%);
+}
+
+.blue-section {
+	background-image: linear-gradient(to left bottom, #0a5a51, #126056, #19665c, #206c61, #267267, #267166, #256f65, #256e64, #1f655c, #185d54, #11544d, #0a4c45);
+}
+
+.green-section {
+	background-image: linear-gradient(to left bottom, #3ed45e, #3fca5d, #40c15b, #40b75a, #41ae58, #3ea954, #3aa550, #37a04c, #2f9f44, #269f3c, #1b9e34, #0a9d2a);
+}
+
+.orange-section {
+	background-image: linear-gradient(to left bottom, #d12e02, #d73908, #dd430f, #e24c15, #e8551b, #e95c1d, #ea6320, #eb6a23, #e77024, #e37526, #e07a28, #dc7f2b);
+}
+
+.red-section {
+	background-image: linear-gradient(to left bottom, #b51212, #c01515, #cb1918, #d61c1c, #e11f1f, #e41e1e, #e71d1d, #ea1c1c, #e51716, #e0100f, #db0807, #d60000);
+}
+
+.inga-red-section {
+	background-image: linear-gradient(to left bottom, #be0404, #ae0205, #9f0105, #900005, #810003, #7b0406, #740809, #6e0b0c, #6f1212, #6f1818, #6f1d1d, #6f2222);
+}
+
+.black {
+	color: black;
+}
+
+.white {
+	color: white;
+}
+
+.center-text {
+	width: 100%;
+	text-align: center;
+}
+
+.title {
+	font-size: 6.5em;
+	font-weight: 500;
+	color: white;
+	margin-bottom: 0.5em;
+}
+
+.smaller-title {
+	font-size: 5em;
+	font-weight: 500;
+	color: white;
+}
+
+.container, .flexBox {
+	display: -webkit-flex; /* Safari */
+	display: flex;
+	flex-direction: column;
+}
+
+.narrow-container {
+	margin-left: 5%;
+	margin-right: 5%;
+	min-width: 90%;
+}
+
+.fill {
+	-webkit-flex: 1;  /* Safari 6.1+ */
+	-ms-flex: 1;  /* IE 10 */  
+	flex: 1;
+}
+
+.big-fill {
+	-webkit-flex: 6 !important;  /* Safari 6.1+ */
+	-ms-flex: 6 !important;  /* IE 10 */  
+	flex: 6 !important;
+	flex-grow: 6 !important;
+}
+
+.row {
+	-webkit-flex: 1;  /* Safari 6.1+ */
+	-ms-flex: 1;  /* IE 10 */  
+	flex: 1;
+}
+
+.rob {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.no-padding {
+	padding: 0;
+}
+
+.no-margin {
+	margin: 0;
+}
+
+.chevron {
+	font-size: 2em !important;
+	vertical-align: bottom;
+	text-align: center;
+	width: 100%;
+}
+
+.shake-vertical {
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	display: inherit;
+	transform-origin: center center;
+	animation: shake-vertical 700ms linear infinite;
+}
+
+.shake-vertical::after {
+  top: -12px;
+  right: -8px;
+}
+
+.shake-vertical::before {
+  top: 12px;
+  right: -8px;
+}
+
+.centercol {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.mg-sm {
+	margin: 4px;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:focus,
+a:active{
+	color: white;
+	text-decoration: none;
+}
