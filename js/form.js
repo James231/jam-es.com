@@ -28,9 +28,8 @@ function submitPressed() {
 		return;
 	}
 	if (canResp == "") {
-		// maybe return here?
 		showError("Captcha not completed!");
-		//return;
+		return;
 	}
 	var xhr = new XMLHttpRequest();
 	xhr.open("POST", endpointUrl, true);
