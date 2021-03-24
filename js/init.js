@@ -23,5 +23,6 @@ window.onload = function() {
 
 	InitPoints();
 
-	setInterval(Redraw, 5);
+	// running at 50 frames per second
+	setInterval(Redraw, 20);
 }
